@@ -19,8 +19,6 @@ router.get('/dashboard', (req, res) => {
     // render dashboard with user specific blogs and ability to add another blog
 });
 
-router.get()
-
 router.get('/login', (req, res) => {
     if (req.session.logged_in) {
       res.redirect('/');
